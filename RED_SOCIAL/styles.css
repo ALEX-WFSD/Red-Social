@@ -1,0 +1,57 @@
+*{ 
+    color: white;
+    background-color:#1E1E1E;
+    
+    
+}
+body
+{ 
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#input
+{
+    color:black;
+    background-color: gray;
+}
+#inicio_Sesion form *
+{
+    
+   color:white;
+    display: block;
+    border: 5px red;
+}
+input[type="submit"]
+{
+background: green;
+color: white;
+padding: 15px;
+font-size: 17px;
+text-transform:  uppercase;
+border: 1px solid black;
+cursor: pointer;
+}
+ input[type= "email" ], input[type= "password" ],input[type= "text" ]
+ {
+    background:wheat;
+    color:black;
+    
+    font-size: 12px;
+    text-transform:  uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+     
+ }
+ input[type= "date" ]
+
+ {
+    background:wheat;
+    color:black;
+    
+    font-size: 12px;
+    text-transform:  uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+     
+ }

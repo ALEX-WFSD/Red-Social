@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RED_SOCIAL</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <table  width="100%"  >
+
+        <tr>
+            <th style="width: 30%;">
+             <img src="Imagenes/images.jpeg"alt="LOGO DE LA PAGINA " title="muesyra el logo " width="70%" height="70%" />
+            </th>
+            <th style="font-size: 25px; text-align: center; padding: 25px; color: #0e0e0e;  "  >
+                 RED_SOCIAL
+            </th>
+
+        </tr>
+        <tr>
+            <td >OPCIONES</td>
+            <td>
+                <form  id="FermIngreso" name="FermIngreso" action="verificacion.php" method="POST">
+                   <strong>Correo</strong> 
+                    <input type="email" id="EMCORREO" name="EMCORREO" />
+                    <br>
+                    <br>
+                   <strong  >Contraseña</strong>
+                    <input type="password" id="pssContrasena" name="pssContrasena"/> <br/>
+                    <br/>   
+                       
+                    <input  type="submit" id="Enviar" name="Enviar" value="Aceptar"/>
+                </form>
+                <br/>
+                
+                    <form  id="FrmRegistro" name="FrmRegistro" action="registro.php" method="POST">
+                        <strong>Correo</strong>
+                        <input type="email" id="REgCorreo" name="RegCorreo" />
+                        <br/>
+                        <strong  >Contraseña</strong>
+                        <input type="password" id="RegContrasena" name="RegContrasena"/> <br/>
+                       <br/>
+                        <strong>Confirmar contraseña</strong>
+                       <input type="password" id="RegConfirmacion" name="RegConfirmacion"/>
+                       <br/>
+                       <strong>Nombre</strong>
+                       <input type="text" id="RegNombre" name="RegNombre"/>
+                       <br/>
+                       <strong>Fecha de Nacimiento</strong>
+                       <input  type="date" id="Regfecha" name="Regfecha"/>
+                       <br/>   
+                       <br/>                   
+                        <input  type="submit" id="EnviarRegistro" name="EnviarRegistro" value="Enviar"/>
+    
+    
+    
+    
+    
+                    </form>
+
+
+                
+
+                    
+
+
+            </td>
+        </tr>
+    </table>
+   
+
+    
+</body>
+</html>
